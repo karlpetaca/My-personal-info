@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <!-- Basic Details-->
+   <header>
+      <h1 id = "name"> Petaca, Karl Dexter O.</h3>
+      <img src="C:\Users\petac\Downloads\Petaca-WBDV-20250410T025638Z-001\Petaca-WBDV\Image\karlpogi.jpg"
+      alt="ANIMI"
+      width="150">
+      <p><strong>Email:</strong><a href = "mailto:kopetaca2014qc@student.fatima.edu.ph">
+         kopetaca2014qc@student.fatima.edu.ph </a>| Phone: 09606828079</p>
+      <p><strong>Facebook: </strong><a href = "https://www.facebook.com/karl.petaca">karl petaca</a></p> 
+      <p><strong>Address:</strong>223 Hulo street bignay valenzuela city</p>
+   </header>
+    <!-- Navigation Menu-->
+    <nav>
+        <ul>
+           <li><a href="#experiences">Experience</a></li>
+           <li><a href="#skills">Skills</a></li>
+           <li><a href="#certifications">Certification</a></li>
+           <li><a href="#educations">Education</a></li>
+           <li><a href="#media">Media</a></li>
+           <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+      <!-- Experience -->
+     <main>
+        <section>
+           <h2>Summary</h2>
+           <p>Life is like riding a bicycle. To keep your balance, you must keep moving.</p>
+        </section>
+        <section>
+        <h2 class = "section-title" id="experiences">Experience</h2>
+           <article>
+              <h4>web Developer</h4>
+                 <ul>
+                    <li>Developed and maintained code for 10 client websites primarily using HTML, CSS, JavaScript, and Python</li>
+                    <li>Collaborated with a team of 4 developers, gaining valuable teamwork experience</li>
+                    <li>Worked on API integration and developed functionality for systems using APIs.</li>
+                 </ul>
+              <h4>Game Developer</h4>
+                 <ul>
+                    <li>Senior Gameplay Engineer</li>
+                    <li>Engine Tools Developer</li>
+                    <li>Unity Game Developer</li>
+                    <li>Game Developer Intern</li>
+                    <li>Gameplay Programmer</li> 
+                    <li>Interactive Software Developer</li> 
+                    <li>Junior Game Developer</li> 
+                    <li>Lead Game Developer</li> 
+                 </ul>
+           </article>
+        </section>
+        
+        <section>
+           <h2 class = "section-title" id="skills">Skills</h2>
+           <ul>
+              <li>Problem Solving</li>
+              <li>Communication</li>
+              <li>Teamwork</li>
+              <li>Creativity</li>
+              <li>Adaptability</li>
+              <li>Computer literate</li>
+              <li>Cotumer service</li>
+              <li>Attention to detail</li>
+              <li>VFX</li>
+           </ul>
+        </section>
+        <section>
+           <h2 class = "section-title" id="certifications">Certification</h2>
+              <p><strong>Game Developer</strong></p>
+              <ul>
+                 <li>Unity Certified Programmer</li>
+                 <li>Unity Certified 3D Artist</li>
+                 <li>Certified Game Developer</li>
+                 <li>Maya Certified Professional</li>
+                 <li>3ds Max Certified Professional</li>
+                 <li>Adobe Certified Expert (ACE) - Adobe Animate CC</li>
+              </ul>
+              <p><strong>Web Developer</strong></p>
+              <ul>
+                 <li>User Interface / User Experience (UI / UX) Designer</li>
+                 <li>Data Analysis</li>
+                 <li>Front-end Developer/li>
+                 <li>Certified Professional in Blender</li>
+                 <li>Certified Digital Artist</li>
+                 <li>Substance 3D Designer Certification</li>
+
+              </ul>
+        </section>
+        <section>
+           <h2 class = "section-title" id="educations">Education</h2>
+           <p><strong>Information Communication Technology(ICT)</strong></p>
+           <p>La Consolacion College Novaliches-Deparo | 2022-2024</p>
+           <p><strong>College | BSIT</strong></p>
+           <p>Our Lady of Fatima University | 2024-Present</p>
+        </section>
+        <h2 class = "section-title" id="media">Media Portfolio</h2>
+           <img src="C:\Users\petac\Downloads\Petaca-WBDV-20250410T025638Z-001\Petaca-WBDV\portfolio\portfolio.jpg"
+           alt="home page of my portfolio"
+           width="500">
+        <article>
+           <h3>Introduction Video</h3>
+           <video controls width="600" 
+           poster="C:\Users\petac\Downloads\Petaca-WBDV-20250410T025638Z-001\Petaca-WBDV\Video\panomonasabi.mp4">
+              <source src="C:\Users\petac\Downloads\Petaca-WBDV-20250410T025638Z-001\Petaca-WBDV\Video\panomonasabi.mp4"
+              type="video/mp4">
+              <p>Your browser does not support video playback.
+                 <a href="/video/1 Minute Video - Doggie.mp4">
+                    Download the video</a></p>
+           </video>
+        </article>
+        <article>
+           <h3>Audio Introduction</h3>
+           <audio controls>
+              <source src="C:\Users\petac\Downloads\Petaca-WBDV-20250410T025638Z-001\Petaca-WBDV\Audio\BAHAY KUBO (2020) WITH LYRICS  Animated Filipino Folk Song  Hiraya TV.mp3"
+              type="audio/mpeg">
+              <p>Your browser does not audio.
+                 <a href="\Audio\BAHAY KUBO (2020) WITH LYRICS  Animated Filipino Folk Song  Hiraya TV.mp3">
+                    Download the audio</a></p>
+           </video>
+        </article>
+         <footer>
+            <a href="#name" class="back-to-top">Back to top</a>
+         </footer>
+     </main>
+    <script>
+      const backToTopButton = document.querySelector('.back-to-top');
+
+      backToTopButton.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default jump behavior
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth' // Add smooth scrolling
+        });
+      });
+    </script>
+</body>
+</html>
